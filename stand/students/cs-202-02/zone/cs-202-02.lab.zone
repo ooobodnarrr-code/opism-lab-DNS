@@ -1,0 +1,21 @@
+; Zone cs-202-02.lab — starting version.
+; After every change: increase the serial, then run  zone-reload
+$TTL 30
+@     120 IN SOA ns.cs-202-02.lab. admin.cs-202-02.lab. (
+            2026102904 ; serial
+            3600       ; refresh
+            600        ; retry
+            86400      ; expire
+            60         ; minimum
+        )
+@     IN NS ns.cs-202-02.lab.
+ns    IN A  10.53.1.1
+
+; ---- add records from your variant card below this line ----
+www IN A 10.53.0.81
+portal IN CNAME www
+mail IN A 10.53.0.80
+@ IN MX 15 mail
+@ IN TXT "lab-token=f71ca29"
+new-zfkmu IN A 10.53.0.80
+next 20 IN A 10.53.0.81
