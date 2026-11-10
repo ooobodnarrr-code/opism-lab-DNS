@@ -29,7 +29,7 @@
 | Псевдонім (CNAME на `www`) | portal|
 | Другий хост і його TTL, с | next-20|
 | Пріоритет MX | 15|
-| Токен TXT | 	lab-token=f71fca29|
+| Токен TXT | 	lab-token=f71ca29|
 | Ім'я для завдання 5 |	new-zfkmu.cs-202-02.lab  |
 
 ## Завдання 1. Складові URI
@@ -500,7 +500,7 @@ ns.cs-202-02.lab.       30      IN      A       10.53.1.1
 | псевдонім CNAME |NOERROR |є |www.cs-202-02.lab. | 30| так|
 | `mail` A |NOERROR |є | 10.53.0.80| 30|так |
 | `@` MX |NOERROR|є |15 mail.cs-202-02.lab. |30 |так |
-| `@` TXT |NOERROR |є | "lab-token=f71fca29"| 30| так|
+| `@` TXT |NOERROR |є | "lab-token=f71ca29"| 30| так|
 | другий хост A | NOERROR|є | 10.53.0.81|20 |так |
 
 Порівняння відповідей резолвера та власного сервера:
