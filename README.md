@@ -26,7 +26,7 @@
 | `$TTL`, с |30 |
 | TTL запису SOA, с | 120|
 | Поле `minimum` SOA, с | 60|
-| Псевдонім (CNAME на `www`) | status|
+| Псевдонім (CNAME на `www`) | portal|
 | Другий хост і його TTL, с | next-20|
 | Пріоритет MX | 15|
 | Токен TXT | 	lab-token=f71fca29|
